@@ -1,0 +1,50 @@
+{% load i18n %}
+{% load catalog_tags %}
+{% block header %}
+    <header>
+        <nav class="menu">
+            <a href="#" rel="nofollow">главная</a>
+            <a href="#" rel="nofollow">продукция</a>
+            <a href="#" rel="nofollow">о компании</a>
+            <a href="#" rel="nofollow">акции</a>
+            <a href="#" rel="nofollow">вакансии</a>
+        </nav>
+
+        <div id="logo">
+            <img alt="logo" src="{{ STATIC_URL }}img/logo.png">
+        </div>
+
+
+        <!--Центр шапки-->
+        <div id="center_header">
+            {% trans 'Свадебный интернет-салон' %}
+        </div>
+        <!--Конец центра шапки-->
+        <div id="right_sector">
+            <!-- Форма поиска-->
+            <form action="" method="post" class="search">
+                <input type="search" name="" placeholder="поиск" class="input"/>
+                <input type="submit" name="" value="" class="submit"/>
+            </form>
+            <!--Конец формы поиска-->
+            <div id="korzina">
+                <div id="korzina_text">
+                    У Вас в <a href="#">корзине</a>:
+                    <br>
+                    <br>
+                    <strong>3</strong> товара
+                    <br>
+                    на сумму: <strong>4547.47</strong> грн.
+                </div>
+                <div id="korzina_logo">
+                    <img alt="korzina logo" src="{{ STATIC_URL }}img/korzina.png">
+                </div>
+                <div id="knopka">
+                    <a href="#" class="button21">оформить заказ</a>
+                </div>
+            </div>
+        </div>
+        {% menu %}
+    </header>
+
+{% endblock %}

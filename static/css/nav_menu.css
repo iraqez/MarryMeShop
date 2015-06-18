@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.menu {
+    display: table;
+    position: relative;
+    width: 100%;
+    background-color: #920bc4;
+    /*	 background-color:#b531e6;*/
+    color: #FFF;
+    border-radius: 0 0 4px 4px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    font: bold 12px arial;
+}
+
+.menu a {
+    display: table-cell;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 100px; /*устанавливаем минимальную ширины ячейки*/
+    color: #fff;
+}
+
+.menu a.visited {
+    color: #fff;
+}
+
+.menu a.hover {
+    color: #;
+    font: bold 14px arial;
+}

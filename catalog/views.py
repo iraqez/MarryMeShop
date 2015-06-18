@@ -4,3 +4,4 @@ from django.core import urlresolvers
 from django.http import HttpResponseRedirect
 
 from catalog.models import Category
+

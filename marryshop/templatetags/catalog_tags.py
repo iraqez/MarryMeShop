@@ -32,5 +32,3 @@ def submenu(menu_name):
     return {
         "sub": sub,
     }
-
-

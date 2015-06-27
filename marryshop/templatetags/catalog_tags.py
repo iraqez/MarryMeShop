@@ -17,10 +17,3 @@ def menu():
         "menu_cat": menu_cat,
         "subm": subm,
     }
-
-
-def submenu(menu_name):
-    sub = Category.objects.filter(first_menu=menu_name)
-    return {
-        "sub": sub,
-    }

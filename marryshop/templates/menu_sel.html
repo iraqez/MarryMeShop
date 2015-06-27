@@ -4,8 +4,8 @@
         {% for id, name in menu_cat %}
             <li id="{{ id }}"><a href="#{{ id }}">{{ name }}
             </a>
-                {% for i in sub %}
-                {{ i }}
+                {% for i in subm %}
+                    {{ i.name }}
 
             {% endfor %}
             </li>

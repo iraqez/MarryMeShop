@@ -5,6 +5,9 @@ from django.db import models
 
 # Класс категорий верхнего уровня, их должно быть ровно ПЯТЬ!!!
 # не больше, и не меньше!!! Менять можно только второй параметр!!!
+import objects as objects
+
+
 class Category(models.Model):
     MENU = (
         ('a', r'Для невесты'),
@@ -135,3 +138,7 @@ class Product(models.Model):
     @property
     def cache_key(self):
         return self.get_absolute_url()
+
+    def category_name(self):
+        return u" %s" % (u", ".join([Category.name for Category in self.categories.all()]))
+    category_name.short_description=u'Категории'

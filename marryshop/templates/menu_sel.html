@@ -5,8 +5,9 @@
             <li id="{{ id }}"><a href="#{{ id }}">{{ name }}
             </a>
                 {% for i in subm %}
-                    <ul id=""><a href="#{{ i.slug }}">{{ i.name }}</a></ul>
+                    <ul><a href="#{{ i.slug }}">{{ i.name }}</a></ul>
                 {% endfor %}
+
             </li>
         {% endfor %}
     </ul>

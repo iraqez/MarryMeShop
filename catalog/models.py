@@ -24,7 +24,7 @@ class Category(models.Model):
                                         help_text=r'Метатеги для поиска контента', )
     created_at = models.DateTimeField(r"Создано", auto_now_add=True)
     updated_at = models.DateTimeField(r"Изменено", auto_now=True)
-
+#
     class Meta:
         db_table = r'categories'
         ordering = [r'-created_at', r'first_menu']

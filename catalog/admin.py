@@ -10,7 +10,7 @@ class CategoryAdmin(admin.ModelAdmin):
 admin.site.register(Category, CategoryAdmin)
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ('name', 'price', 'old_price', 'created_at', 'updated_at',)
+    list_display = ('category_name', 'name', 'price', 'old_price', 'created_at', 'updated_at',)
     list_display_links = ('name',)
     list_per_page = 50
     ordering = ['-created_at']

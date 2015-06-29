@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from django.db import models
-#from autoslug import AutoSlugField
 
 # Класс категорий верхнего уровня, их должно быть ровно ПЯТЬ!!!
 # не больше, и не меньше!!! Менять можно только второй параметр!!!
@@ -32,7 +31,7 @@ class Category(models.Model):
         verbose_name = r"Категория"
         verbose_name_plural = r"Категории"
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
     @models.permalink
@@ -40,10 +39,6 @@ class Category(models.Model):
         return ('catalog_category', (), {'category_slug': self.slug})
 
 class Product(models.Model):
-    """ model class containing information about a product; instances of this class are what the user
-    adds to their shopping cart and can subsequently purchase
-
-    """
     name = models.CharField(max_length=255, unique=True)
     slug = models.SlugField(max_length=255, unique=True,
                             help_text='Unique value for product page URL, created automatically from name.')
@@ -79,7 +74,7 @@ class Product(models.Model):
         db_table = 'products'
         ordering = ['-created_at']
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
     @models.permalink

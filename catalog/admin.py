@@ -1,6 +1,6 @@
 from django.contrib import admin
 from catalog.models import Category, Product
-
+from gallery.admin import PhotoInline, ItemAdmin
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('first_menu', 'name',)
@@ -10,7 +10,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 admin.site.register(Category, CategoryAdmin)
 
-class ProductAdmin(admin.ModelAdmin):
+class ProductAdmin(ItemAdmin):
     list_display = ('name', 'price', 'old_price', 'created_at', 'updated_at',)
     list_display_links = ('name',)
     filter_horizontal = ('categories',)
@@ -20,5 +20,6 @@ class ProductAdmin(admin.ModelAdmin):
     exclude = ('created_at', 'updated_at',)
     # sets up slug to be generated from product name
     prepopulated_fields = {'slug' : ('name',)}
+    inlines = [PhotoInline]
 
 admin.site.register(Product, ProductAdmin)

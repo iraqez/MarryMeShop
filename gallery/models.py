@@ -3,14 +3,8 @@ from django.db.models import permalink
 #from gallery.items.fields import ThumbnailImageField
 
 class Item(models.Model):
-    name = models.CharField(max_length=250)
-    description = models.TextField()
+    pass
 
-    class Meta:
-        ordering = ['name']
-
-    def __str__(self):
-        return self.name
 
     @permalink
     def get_absolute_url(self):
@@ -19,7 +13,7 @@ class Item(models.Model):
 class Photo(models.Model):
     item = models.ForeignKey(Item)
     title = models.CharField(max_length=100)
-#    image = ThumbnailImageField(upload_to='photos')
+    image = models.ImageField(upload_to='media/images/main')
     caption = models.CharField(max_length=250, blank=True)
 
     class Meta:

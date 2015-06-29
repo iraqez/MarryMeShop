@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from django.db import models
+from gallery.models import Item
 
 # Класс категорий верхнего уровня, их должно быть ровно ПЯТЬ!!!
 # не больше, и не меньше!!! Менять можно только второй параметр!!!
@@ -38,7 +39,7 @@ class Category(models.Model):
     def get_absolute_url(self):
         return ('catalog_category', (), {'category_slug': self.slug})
 
-class Product(models.Model):
+class Product(Item):
     name = models.CharField(max_length=255, unique=True)
     slug = models.SlugField(max_length=255, unique=True,
                             help_text='Unique value for product page URL, created automatically from name.')
@@ -59,12 +60,6 @@ class Product(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     categories = models.ManyToManyField(Category)
-
-    # image fields, added in Chapter 7
-    # image fields require a varchar(100) in db
-    image = models.ImageField(upload_to='images/products/main')
-    thumbnail = models.ImageField(upload_to='images/products/thumbnails')
-    image_caption = models.CharField(max_length=200)
 
     objects = models.Manager()
     #active = ActiveProductManager()

@@ -1,6 +1,6 @@
 from django.db import models
 from django.db.models import permalink
-#from gallery.items.fields import ThumbnailImageField
+from gallery.fileds import
 from PIL import Image
 
 class Item(models.Model):
@@ -28,3 +28,4 @@ class Photo(models.Model):
     @permalink
     def get_absolute_url(self):
         return ('photo_detail', None, {'object_id': self.id})
+

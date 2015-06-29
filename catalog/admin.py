@@ -9,7 +9,7 @@ class CategoryAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug' : ('name',)}
 
 admin.site.register(Category, CategoryAdmin)
-
+#
 class ProductAdmin(ItemAdmin):
     list_display = ('name', 'price', 'old_price', 'created_at', 'updated_at',)
     list_display_links = ('name',)

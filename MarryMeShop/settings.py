@@ -48,6 +48,7 @@ INSTALLED_APPS = (
     'marryshop',
     'catalog',
     'marryshop.templatetags',
+    'gallery',
 )
 
 MIDDLEWARE_CLASSES = (

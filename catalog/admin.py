@@ -19,5 +19,6 @@ class ProductAdmin(ItemAdmin):
     exclude = ('created_at', 'updated_at',)
     # sets up slug to be generated from product name
     prepopulated_fields = {'slug' : ('name',)}
+    filter_horizontal = ['categories',]
 
 admin.site.register(Product, ProductAdmin)

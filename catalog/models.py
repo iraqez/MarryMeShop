@@ -5,7 +5,7 @@ from gallery.models import Item
 
 # Класс категорий верхнего уровня, их должно быть ровно ПЯТЬ!!!
 # не больше, и не меньше!!! Менять можно только второй параметр!!!
-import objects as objects
+
 
 
 class Category(models.Model):

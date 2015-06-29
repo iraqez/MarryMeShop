@@ -1,5 +1,6 @@
 from django.contrib import admin
 from catalog.models import Category, Product
+from gallery.admin import ItemAdmin
 
 
 class CategoryAdmin(admin.ModelAdmin):
@@ -9,7 +10,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 admin.site.register(Category, CategoryAdmin)
 
-class ProductAdmin(admin.ModelAdmin):
+class ProductAdmin(ItemAdmin):
     list_display = ('name', 'price', 'old_price', 'created_at', 'updated_at',)
     list_display_links = ('name',)
     list_per_page = 50

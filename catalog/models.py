@@ -16,7 +16,7 @@ class Category(models.Model):
         ('d', r'Для детей'),
         ('e', r'Аксессуары'),
     )
-    first_menu = models.CharField(max_length=30, choices=MENU)
+    first_menu = models.CharField(verbose_name=r"Верхний уровень меню", max_length=30, choices=MENU)
     name = models.CharField(verbose_name=r"Название", max_length=50, unique=True, )
     slug = models.SlugField(r"Адресная строка", max_length=50, unique=True,
                             help_text=r'Уникальное имя для отображения в адресе(заполнять без пробелов и латиницей)', )

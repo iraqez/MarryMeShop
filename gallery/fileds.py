@@ -1,5 +1,3 @@
-__author__ = 'iraqez'
-
 from django.db.models.fields.files import ImageField, ImageFieldFile
 from PIL import Image
 import os

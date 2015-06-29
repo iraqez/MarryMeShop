@@ -1,7 +1,6 @@
 from django.db import models
 from django.db.models import permalink
-from gallery.fileds import
-from PIL import Image
+from gallery.fileds import ThumbnailImageField
 
 class Item(models.Model):
     pass
@@ -14,7 +13,7 @@ class Item(models.Model):
 class Photo(models.Model):
     item = models.ForeignKey(Item)
     title = models.CharField(verbose_name=r"Название", max_length=100)
-    image = models.ImageField(verbose_name=r"Фото", upload_to='media/images/main')
+    image = ThumbnailImageField(verbose_name=r"Фото", upload_to='media/images/main')
     caption = models.CharField(verbose_name=r"Описание", max_length=250, blank=True)
 
     class Meta:

@@ -43,25 +43,25 @@ class Category(models.Model):
         return ('catalog_category', (), {'category_slug': self.slug})
 
 class Product(Item):
-    name = models.CharField(max_length=255, unique=True)
-    slug = models.SlugField(max_length=255, unique=True,
-                            help_text='Unique value for product page URL, created automatically from name.')
-    brand = models.CharField(max_length=50)
-    sku = models.CharField(max_length=50)
-    price = models.DecimalField(max_digits=9,decimal_places=2)
-    old_price = models.DecimalField(max_digits=9,decimal_places=2,
+    name = models.CharField(verbose_name=r"Наименование", max_length=255, unique=True)
+    slug = models.SlugField(verbose_name=r"Адресная строка", max_length=255, unique=True,
+                            help_text='Уникальное значение в адресной строки для товара, добавляется автоматически.')
+    brand = models.CharField(verbose_name=r"Производитель", max_length=50)
+    sku = models.CharField(verbose_name=r"СКЮ", max_length=50)
+    price = models.DecimalField(verbose_name=r"Цена", max_digits=9,decimal_places=2)
+    old_price = models.DecimalField(verbose_name=r"Старая цена", max_digits=9,decimal_places=2,
                                     blank=True,default=0.00)
-    is_active = models.BooleanField(default=True)
-    is_bestseller = models.BooleanField(default=False)
-    is_featured = models.BooleanField(default=False)
-    quantity = models.IntegerField()
-    description = models.TextField()
-    meta_keywords = models.CharField("Meta Keywords",max_length=255,
-                                     help_text='Comma-delimited set of SEO keywords for keywords meta tag')
-    meta_description = models.CharField("Meta Description", max_length=255,
-                                        help_text='Content for description meta tag')
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
+    is_active = models.BooleanField(verbose_name=r"Активно", default=True)
+    is_bestseller = models.BooleanField(verbose_name=r"Бестселлер", default=False)
+    is_featured = models.BooleanField(verbose_name=r"Распродажа", default=False)
+    quantity = models.IntegerField(verbose_name=r"Количество", )
+    description = models.TextField(verbose_name=r"Описание", )
+    meta_keywords = models.CharField(verbose_name=r"Ключевые слова" ,max_length=255,
+                                     help_text='Добавляет ключевые слова в мета-теги странички для СЕО поиска.')
+    meta_description = models.CharField(verbose_name=r"Дескрипторы", max_length=255,
+                                        help_text='Дескрипторы метатегов')
+    created_at = models.DateTimeField(verbose_name=r"Создано", auto_now_add=True)
+    updated_at = models.DateTimeField(verbose_name=r"Изменено", auto_now=True)
     categories = models.ManyToManyField(Category)
 
     objects = models.Manager()
@@ -71,6 +71,8 @@ class Product(Item):
     class Meta:
         db_table = 'products'
         ordering = ['-created_at']
+        verbose_name = r"Товар"
+        verbose_name_plural = r"Товары"
 
     def __str__(self):
         return self.name

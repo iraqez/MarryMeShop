@@ -13,7 +13,7 @@ class Item(models.Model):
 class Photo(models.Model):
     item = models.ForeignKey(Item)
     title = models.CharField(verbose_name=r"Название", max_length=100)
-    image = ThumbnailImageField(verbose_name=r"Фото", upload_to='media/images/main')
+    image = ThumbnailImageField(verbose_name=r"Фото", upload_to='media/images/main/tovar')
     caption = models.CharField(verbose_name=r"Описание", max_length=250, blank=True)
 
     class Meta:

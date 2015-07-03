@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4" />
+<project version="4">
+  <component name="PublishConfigData" uploadOnCheckin="3e376cfb-23ce-4582-8ce9-6614e60b95db">
+    <option name="myUploadOnCheckinName" value="marry_server" />
+  </component>
+</project>

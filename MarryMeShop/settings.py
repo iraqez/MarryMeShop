@@ -96,15 +96,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# STATICFILES_DIRS = [
-#     os.path.join(PROJECT_ROOT, 'staticfiles', ),
-# ]
+STATICFILES_DIRS = [
+    os.path.join(PROJECT_ROOT, 'staticfiles', ),
+]
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(PROJECT_ROOT, 'staticfiles', ),
+            # insert your TEMPLATE_DIRS here
         ],
         'APP_DIRS': True,
         'OPTIONS': {

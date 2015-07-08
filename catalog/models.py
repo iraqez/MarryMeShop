@@ -127,8 +127,3 @@ class Product(Item):
     @property
     def cache_key(self):
         return self.get_absolute_url()
-
-    def category_name(self):
-        return u" %s" % (u", ".join([Category.name for Category in self.categories.all()]))
-
-    category_name.short_description = u'Категории'

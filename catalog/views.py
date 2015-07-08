@@ -4,10 +4,8 @@ from django.core import urlresolvers
 from django.http import HttpResponseRedirect
 from django.http import HttpResponse
 
-from catalog.models import Category
+from catalog.models import Category, Product
 
 
-def menuSel():
-    submenu = Category.objects.all()
-    context = RequestContext(request, {'submenu': submenu})
-    return HttpResponse(template.render(submenu))
+def show_category(request, category_slug, template_name="catalog/index.html"):
+    p = get_object_or_404(Category, slug=category_slug)

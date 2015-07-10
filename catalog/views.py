@@ -7,5 +7,9 @@ from django.http import HttpResponse
 from catalog.models import Category, Product
 
 
-def show_category(request, category_slug, template_name="catalog/index.html"):
-    p = get_object_or_404(Category, slug=category_slug)
+def index(request, template_name="catalog/index.html"):
+    page_title = 'Marry-Me все для свадеб'
+    return render_to_response(template_name, locals(), context_instance=RequestContext(request))
+
+# def show_category(request, category_slug, template_name="catalog/index.html"):
+#     p = get_object_or_404(Category, slug=category_slug)

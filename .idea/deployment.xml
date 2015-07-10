@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" uploadOnCheckin="3e376cfb-23ce-4582-8ce9-6614e60b95db">
+  <component name="PublishConfigData" serverName="MarryMe" uploadOnCheckin="3e376cfb-23ce-4582-8ce9-6614e60b95db">
     <serverData>
-      <paths name="marry_server">
+      <paths name="MarryMe">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

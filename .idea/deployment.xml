@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="PublishConfigData" serverName="MarryMe" uploadOnCheckin="b46d4a64-9d7a-4bb8-b43f-96083fcf6e0f">
-    <serverData>
-      <paths name="MarryMe">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-    </serverData>
     <option name="myUploadOnCheckinName" value="MarryMe" />
   </component>
 </project>

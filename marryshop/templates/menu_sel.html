@@ -8,7 +8,7 @@
                     {% if i.first_menu = id %}
                         <ul>
                         </hr>
-                            <b></b><a href="#{{ i.slug }}">{{ i.name }}</a></b>
+                            <b></b><a href="#{{ i.slug }}">{{ i.name|capfirst }}</a></b>
                         </ul>
                     {% endif %}
                 {% endfor %}

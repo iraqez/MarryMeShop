@@ -8,7 +8,7 @@ from catalog.models import Category, Product
 
 
 def index(request):
-    template = loader.get_template('catalog/index.html')
+    template = loader.get_template('catalog/templates/index.html')
     page_title = 'Marry-Me все для свадеб'
     return render_to_response(template, locals(), context_instance=RequestContext(request))
 

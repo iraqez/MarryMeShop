@@ -4,36 +4,37 @@
 @import "menu.css";
 @import "korzina.css";
 @import "oformit_zakazcss.css";
+
 @font-face {
-	font-family:EkaterinaVelikaya2;
-	src:url(../fonts/EkaterinaVelikaya2.ttf);
-	
+    font-family: EkaterinaVelikaya2;
+    src: url(../fonts/EkaterinaVelikaya2.ttf);
+
 }
 
 /* CSS Document */
 
-
-*{
-	margin:0 0 0 0;
-	padding:0 0 0 0;
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
-body{
-	max-width:960px;
-	text-align:center;
-	margin:auto;
+body {
+    max-width: 960px;
+    text-align: center;
+    margin: auto;
 }
 
-#logo{
-	float:left;
+#logo {
+    float: left;
 }
 
-#center_header{
-	font-family:"EkaterinaVelikaya2";
-	font-weight:bold;
-	color:#c718d7;
-	font-size:38px;
-	padding-left:60px;
-	float:left;
+#center_header {
+    font-family: "EkaterinaVelikaya2";
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 38px;
+    padding-left: 60px;
+    float: left;
+    text-shadow: 0 0 10pt #c718d7;
 }
 

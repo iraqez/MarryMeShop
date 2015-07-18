@@ -1,0 +1,285 @@
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/dataSources.xml	(revision 8f674046f6027f5765d199443c17f797622842f6)
++++ .idea/dataSources.xml	(revision )
+@@ -1,18 +1,11 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="DataSourceManagerImpl" format="xml">
++  <component name="DataSourceManagerImpl" format="xml" hash="0">
+     <data-source source="LOCAL" name="Django default" uuid="87ed28c8-9d81-436c-83da-2a1801127e53">
+       <driver-ref>sqlite.xerial</driver-ref>
+       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+-      <jdbc-url>jdbc:sqlite:D:\python\django\MarryMeShop\db.sqlite3</jdbc-url>
+-      <libraries>
+-        <library>
+-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
+-        </library>
+-        <library>
+-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
+-        </library>
+-      </libraries>
++      <jdbc-url>jdbc:sqlite:C:\Users\iraqez\PycharmProjects\MarryMeShop\db.sqlite3</jdbc-url>
++      <libraries />
+     </data-source>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_23_17_[Default].patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1251
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_23_17_[Default].patch	(revision )
++++ .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_23_17_[Default].patch	(revision )
+@@ -0,0 +1,40 @@
++Index: .idea/dataSources.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/dataSources.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
+++++ .idea/dataSources.xml	(revision )
++@@ -1,6 +1,6 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++-  <component name="DataSourceManagerImpl" format="xml">
+++  <component name="DataSourceManagerImpl" format="xml" hash="0">
++     <data-source source="LOCAL" name="Django default" uuid="87ed28c8-9d81-436c-83da-2a1801127e53">
++       <driver-ref>sqlite.xerial</driver-ref>
++       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
++\ No newline at end of file
++Index: .idea/deployment.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/deployment.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
+++++ .idea/deployment.xml	(revision )
++@@ -1,15 +1,6 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++   <component name="PublishConfigData" uploadOnCheckin="3e376cfb-23ce-4582-8ce9-6614e60b95db">
++-    <serverData>
++-      <paths name="marry_server">
++-        <serverdata>
++-          <mappings>
++-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
++-          </mappings>
++-        </serverdata>
++-      </paths>
++-    </serverData>
++     <option name="myUploadOnCheckinName" value="marry_server" />
++   </component>
++ </project>
++\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_23_02_[Default].patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1251
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_23_02_[Default].patch	(revision )
++++ .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_23_02_[Default].patch	(revision )
+@@ -0,0 +1,75 @@
++Index: .idea/dataSources.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/dataSources.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
+++++ .idea/dataSources.xml	(revision )
++@@ -1,18 +1,11 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++-  <component name="DataSourceManagerImpl" format="xml">
+++  <component name="DataSourceManagerImpl" format="xml" hash="0">
++     <data-source source="LOCAL" name="Django default" uuid="87ed28c8-9d81-436c-83da-2a1801127e53">
++       <driver-ref>sqlite.xerial</driver-ref>
++       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
++-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
++-      <libraries>
++-        <library>
++-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
++-        </library>
++-        <library>
++-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
++-        </library>
++-      </libraries>
+++      <jdbc-url>jdbc:sqlite:C:\Users\iraqez\PycharmProjects\MarryMeShop\db.sqlite3</jdbc-url>
+++      <libraries />
++     </data-source>
++   </component>
++ </project>
++\ No newline at end of file
++Index: .idea/deployment.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/deployment.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
+++++ .idea/deployment.xml	(revision )
++@@ -1,15 +1,6 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++   <component name="PublishConfigData" uploadOnCheckin="3e376cfb-23ce-4582-8ce9-6614e60b95db">
++-    <serverData>
++-      <paths name="marry_server">
++-        <serverdata>
++-          <mappings>
++-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
++-          </mappings>
++-        </serverdata>
++-      </paths>
++-    </serverData>
++     <option name="myUploadOnCheckinName" value="marry_server" />
++   </component>
++ </project>
++\ No newline at end of file
++Index: .idea/runConfigurations/MarryMeShop.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/runConfigurations/MarryMeShop.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
+++++ .idea/runConfigurations/MarryMeShop.xml	(revision )
++@@ -3,10 +3,10 @@
++     <option name="INTERPRETER_OPTIONS" value="" />
++     <option name="PARENT_ENVS" value="true" />
++     <envs>
++-      <env name="PYTHONUNBUFFERED" value="1" />
++       <env name="DJANGO_SETTINGS_MODULE" value="MarryMeShop.settings" />
+++      <env name="PYTHONUNBUFFERED" value="1" />
++     </envs>
++-    <option name="SDK_HOME" value="/usr/bin/python3.4" />
+++    <option name="SDK_HOME" value="C:\Python34\python.exe" />
++     <option name="WORKING_DIRECTORY" value="" />
++     <option name="IS_MODULE_SDK" value="false" />
++     <option name="ADD_CONTENT_ROOTS" value="true" />
++\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_22_42_[Default].patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1251
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_22_42_[Default].patch	(revision )
++++ .idea/shelf/Uncommitted_changes_before_update_operation_at_10_07_2015_22_42_[Default].patch	(revision )
+@@ -0,0 +1,75 @@
++Index: .idea/dataSources.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/dataSources.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
+++++ .idea/dataSources.xml	(revision )
++@@ -1,18 +1,11 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++-  <component name="DataSourceManagerImpl" format="xml">
+++  <component name="DataSourceManagerImpl" format="xml" hash="0">
++     <data-source source="LOCAL" name="Django default" uuid="87ed28c8-9d81-436c-83da-2a1801127e53">
++       <driver-ref>sqlite.xerial</driver-ref>
++       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
++-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
++-      <libraries>
++-        <library>
++-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
++-        </library>
++-        <library>
++-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
++-        </library>
++-      </libraries>
+++      <jdbc-url>jdbc:sqlite:C:\Users\iraqez\PycharmProjects\MarryMeShop\db.sqlite3</jdbc-url>
+++      <libraries />
++     </data-source>
++   </component>
++ </project>
++\ No newline at end of file
++Index: .idea/deployment.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/deployment.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
+++++ .idea/deployment.xml	(revision )
++@@ -1,15 +1,6 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++   <component name="PublishConfigData" uploadOnCheckin="3e376cfb-23ce-4582-8ce9-6614e60b95db">
++-    <serverData>
++-      <paths name="marry_server">
++-        <serverdata>
++-          <mappings>
++-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
++-          </mappings>
++-        </serverdata>
++-      </paths>
++-    </serverData>
++     <option name="myUploadOnCheckinName" value="marry_server" />
++   </component>
++ </project>
++\ No newline at end of file
++Index: .idea/runConfigurations/MarryMeShop.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/runConfigurations/MarryMeShop.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
+++++ .idea/runConfigurations/MarryMeShop.xml	(revision )
++@@ -3,10 +3,10 @@
++     <option name="INTERPRETER_OPTIONS" value="" />
++     <option name="PARENT_ENVS" value="true" />
++     <envs>
++-      <env name="PYTHONUNBUFFERED" value="1" />
++       <env name="DJANGO_SETTINGS_MODULE" value="MarryMeShop.settings" />
+++      <env name="PYTHONUNBUFFERED" value="1" />
++     </envs>
++-    <option name="SDK_HOME" value="/usr/bin/python3.4" />
+++    <option name="SDK_HOME" value="C:\Python34\python.exe" />
++     <option name="WORKING_DIRECTORY" value="" />
++     <option name="IS_MODULE_SDK" value="false" />
++     <option name="ADD_CONTENT_ROOTS" value="true" />
++\ No newline at end of file
+Index: .idea/deployment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/deployment.xml	(revision 8f674046f6027f5765d199443c17f797622842f6)
++++ .idea/deployment.xml	(revision )
+@@ -1,15 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="PublishConfigData" serverName="MarryMe" uploadOnCheckin="b46d4a64-9d7a-4bb8-b43f-96083fcf6e0f">
+-    <serverData>
+-      <paths name="MarryMe">
+-        <serverdata>
+-          <mappings>
+-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+-          </mappings>
+-        </serverdata>
+-      </paths>
+-    </serverData>
+     <option name="myUploadOnCheckinName" value="MarryMe" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/runConfigurations/MarryMeShop.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/runConfigurations/MarryMeShop.xml	(revision 8f674046f6027f5765d199443c17f797622842f6)
++++ .idea/runConfigurations/MarryMeShop.xml	(revision )
+@@ -6,7 +6,7 @@
+       <env name="PYTHONUNBUFFERED" value="1" />
+       <env name="DJANGO_SETTINGS_MODULE" value="MarryMeShop.settings" />
+     </envs>
+-    <option name="SDK_HOME" value="C:/Python33/python.exe" />
++    <option name="SDK_HOME" value="C:\Python34\python.exe" />
+     <option name="WORKING_DIRECTORY" value="" />
+     <option name="IS_MODULE_SDK" value="false" />
+     <option name="ADD_CONTENT_ROOTS" value="true" />
+\ No newline at end of file

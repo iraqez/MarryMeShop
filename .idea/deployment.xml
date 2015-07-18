@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" uploadOnCheckin="b46d4a64-9d7a-4bb8-b43f-96083fcf6e0f">
+  <component name="PublishConfigData" uploadOnCheckin="1bd71e51-c1c6-443d-a2a6-de13f758bbba">
     <serverData>
       <paths name="in_work">
         <serverdata>
@@ -10,6 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="MarryMe" />
+    <option name="myUploadOnCheckinName" value="in_work" />
   </component>
 </project>

@@ -24,7 +24,7 @@
 .lifted:after {
         content:"";
         position:absolute;
-        z-index:-2;
+        z-index:-1;
         bottom:15px;
         left:10px;
         width:50%;

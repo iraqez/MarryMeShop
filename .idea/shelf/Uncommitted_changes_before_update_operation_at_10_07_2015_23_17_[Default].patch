@@ -1,0 +1,40 @@
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/dataSources.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
++++ .idea/dataSources.xml	(revision )
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="DataSourceManagerImpl" format="xml">
++  <component name="DataSourceManagerImpl" format="xml" hash="0">
+     <data-source source="LOCAL" name="Django default" uuid="87ed28c8-9d81-436c-83da-2a1801127e53">
+       <driver-ref>sqlite.xerial</driver-ref>
+       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+\ No newline at end of file
+Index: .idea/deployment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/deployment.xml	(revision 13c1a29d2614f541ce38c6634490b169d9b2d051)
++++ .idea/deployment.xml	(revision )
+@@ -1,15 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="PublishConfigData" uploadOnCheckin="3e376cfb-23ce-4582-8ce9-6614e60b95db">
+-    <serverData>
+-      <paths name="marry_server">
+-        <serverdata>
+-          <mappings>
+-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+-          </mappings>
+-        </serverdata>
+-      </paths>
+-    </serverData>
+     <option name="myUploadOnCheckinName" value="marry_server" />
+   </component>
+ </project>
+\ No newline at end of file

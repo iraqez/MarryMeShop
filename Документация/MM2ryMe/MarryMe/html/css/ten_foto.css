@@ -6,9 +6,9 @@
 }
 .lifted {
 	position: relative;
-	width: 195px /*40%*/;
+	width: 30%;
 	padding: 1em;
-	margin: 2em 10px 4em;
+	margin: 2em 1em 4em;
 	background: #fff;
 	border-radius: 4px;
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -24,7 +24,7 @@
 	bottom: 15px;
 	left: 10px;
 	width: 50%;
-	height: 20%;
+	height: 10%;
 	max-width: 300px;
 	-webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
 	-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);

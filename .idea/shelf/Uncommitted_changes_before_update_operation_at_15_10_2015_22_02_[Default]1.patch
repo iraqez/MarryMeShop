@@ -1,0 +1,91 @@
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/dataSources.xml	(revision b66c25a6ba08d031d85b1e090502068f2e209019)
++++ .idea/dataSources.xml	(revision )
+@@ -4,7 +4,7 @@
+     <data-source source="LOCAL" name="Django default" uuid="87ed28c8-9d81-436c-83da-2a1801127e53">
+       <driver-ref>sqlite.xerial</driver-ref>
+       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+-      <jdbc-url>jdbc:sqlite:C:\Users\v.gumenjuk\PycharmProjects\MarryMeShop\db.sqlite3</jdbc-url>
++      <jdbc-url>jdbc:sqlite:C:\Users\iraqez\PycharmProjects\MarryMeShop\db.sqlite3</jdbc-url>
+       <libraries />
+     </data-source>
+   </component>
+\ No newline at end of file
+Index: Документация/MM2ryMe/MarryMe/html/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Документация/MM2ryMe/MarryMe/html/index.html	(revision b66c25a6ba08d031d85b1e090502068f2e209019)
++++ Документация/MM2ryMe/MarryMe/html/index.html	(revision )
+@@ -16,7 +16,7 @@
+ </head>
+ <body>
+ <header>
+-    <nav class="menu"><a href="" rel="nofollow">главная</a> <a href="#" rel="nofollow">продукция</a> <a href="#"
++  <nav class="menu"><a href="" rel="nofollow">главная</a> <a href="#" rel="nofollow">продукция</a> <a href="#"
+                                                                                                         rel="nofollow">о
+         компании</a> <a href="#" rel="nofollow">акции</a> <a href="#" rel="nofollow">вакансии</a></nav>
+     <div id="logo"><img alt="logo" src="img/logo.png"></div>
+@@ -61,14 +61,19 @@
+     </ul>
+     </nav>
+ </header>
+-<!--<content>
++<content>
+ 
++    <!--    <p>Текст!!!</p>-->
+ 
+     <div class="lifted"><img src="img/фата.jpg" alt="фата" width=100% height=100% />
+ 
+         <p>Фата "В первый раз"</p>
+     </div>
+     
++<!--        <div class="lifted"><img src="img/картинка.jpg" alt="фата" width=90% height=90%/>
++
++        <p>Фата "Во второй раз"</p>
++    </div>-->
+     <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam lacus ipsum, quis pulvinar erat feugiat
+         facilisis. Praesent at nisi justo. Nulla faucibus interdum libero sed dapibus. Donec sed lorem tempor,
+@@ -101,9 +106,6 @@
+         Etiam rhoncus eros consequat, lacinia libero non, ornare felis. Morbi rutrum commodo euismod. Praesent rhoncus
+         vulputate enim sit amet rutrum.
+     </p>
+-</content> -->
++</content>
+ </body>
+-<footer>
+-	<p>Подвал</p>
+-</footer>
+ </html>
+\ No newline at end of file
+Index: Документация/MM2ryMe/MarryMe/html/css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Документация/MM2ryMe/MarryMe/html/css/style.css	(revision b66c25a6ba08d031d85b1e090502068f2e209019)
++++ Документация/MM2ryMe/MarryMe/html/css/style.css	(revision )
+@@ -18,12 +18,12 @@
+ 
+ header {
+ 	float: left;
+-	margin: 0 0 0 0;
+-	padding: 0 0 0 0;
+ }
+ 
+-content {
++section {
+ 	float: right;
+-	margin: 0 0 0 0;
+-	padding: 0 0 0 0;
++}
++content {
++	padding:10px;
++	margin: 20px;
+ }

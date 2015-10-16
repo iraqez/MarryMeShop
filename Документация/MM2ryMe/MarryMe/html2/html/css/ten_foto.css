@@ -5,10 +5,11 @@
 	text-align: center;
 }
 .lifted {
-	position: relative;
+	position:relative;
 	width: 30%;
-	padding: 1em;
-	margin: 2em 1em 4em;
+	padding: 10px;
+/*	margin: 2em 1em 4em;*/
+	margin: 1px 1px 1em 1em;
 	background: #fff;
 	border-radius: 4px;
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -20,7 +21,7 @@
 .lifted:before, .lifted:after {
 	content: "";
 	position: absolute;
-	z-index: -1;
+	z-index: -10;
 	bottom: 15px;
 	left: 10px;
 	width: 50%;

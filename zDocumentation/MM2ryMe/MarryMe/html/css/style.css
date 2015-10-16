@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import "nav_menu.css";
+@import "search.css";
+@import "menu.css";
+@import "korzina.css";
+@import "oformit_zakazcss.css";
+
+@font-face {
+    font-family: EkaterinaVelikaya2;
+    src: url(../fonts/EkaterinaVelikaya2.ttf);
+
+}
+
+/* CSS Document */
+
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#leftcontent {
+	width:180px;
+	min-height:500px;
+	float:left;
+}
+#mycontent {
+	width:600px;
+	float:left;
+}
+#rightcontent {
+}
+content {
+	z-index:-2;
+	display:inline-block;
+	float:left;
+	position:relative;
+	margin-top:-35px;
+}
+
+body {
+    max-width: 960px;
+    text-align: center;
+    margin: auto;
+}
+
+#logo {
+    float: left;
+}
+
+#center_header {
+    font-family: "EkaterinaVelikaya2";
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 38px;
+    padding-left: 60px;
+    float: left;
+    text-shadow: 0 0 10pt #c718d7;
+}
+
+header {
+	width:960px;
+	display:block;
+}
+
+footer {
+	width: 960px;
+	float:right;
+    background-color: #920bc4;
+	}

@@ -1,0 +1,123 @@
+Index: .idea/MarryMeShop.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1251
+===================================================================
+--- .idea/MarryMeShop.iml	(revision 4d19b524763225089e6a4e7be3db60bdfb374244)
++++ .idea/MarryMeShop.iml	(revision )
+@@ -12,7 +12,7 @@
+   </component>
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="Python 3.3.3 (C:/Python33/python.exe)" jdkType="Python SDK" />
++    <orderEntry type="jdk" jdkName="Python 3.4.3 (C:\Python34\python.exe)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+   <component name="TemplatesService">
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 4d19b524763225089e6a4e7be3db60bdfb374244)
++++ .idea/misc.xml	(revision )
+@@ -1,4 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.3.3 (C:/Python33/python.exe)" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.4.3 (C:\Python34\python.exe)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: Документация/MM2ryMe/MarryMe/html/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Документация/MM2ryMe/MarryMe/html/index.html	(revision 4d19b524763225089e6a4e7be3db60bdfb374244)
++++ Документация/MM2ryMe/MarryMe/html/index.html	(revision )
+@@ -61,7 +61,7 @@
+     </ul>
+     </nav>
+ </header>
+-<content>
++<section>
+ 
+     <!--    <p>Текст!!!</p>-->
+ 
+@@ -106,6 +106,6 @@
+         Etiam rhoncus eros consequat, lacinia libero non, ornare felis. Morbi rutrum commodo euismod. Praesent rhoncus
+         vulputate enim sit amet rutrum.
+     </p>
+-</content>
++</section>
+ </body>
+ </html>
+\ No newline at end of file
+Index: .idea/runConfigurations/MarryMeShop.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/runConfigurations/MarryMeShop.xml	(revision 4d19b524763225089e6a4e7be3db60bdfb374244)
++++ .idea/runConfigurations/MarryMeShop.xml	(revision )
+@@ -3,10 +3,10 @@
+     <option name="INTERPRETER_OPTIONS" value="" />
+     <option name="PARENT_ENVS" value="true" />
+     <envs>
+-      <env name="PYTHONUNBUFFERED" value="1" />
+       <env name="DJANGO_SETTINGS_MODULE" value="MarryMeShop.settings" />
++      <env name="PYTHONUNBUFFERED" value="1" />
+     </envs>
+-    <option name="SDK_HOME" value="C:/Python33/python.exe" />
++    <option name="SDK_HOME" value="C:\Python34\python.exe" />
+     <option name="WORKING_DIRECTORY" value="" />
+     <option name="IS_MODULE_SDK" value="false" />
+     <option name="ADD_CONTENT_ROOTS" value="true" />
+\ No newline at end of file
+Index: Документация/MM2ryMe/MarryMe/html/css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Документация/MM2ryMe/MarryMe/html/css/style.css	(revision 4d19b524763225089e6a4e7be3db60bdfb374244)
++++ Документация/MM2ryMe/MarryMe/html/css/style.css	(revision )
+@@ -17,12 +17,8 @@
+ 
+ header {
+ 	float: left;
+-	margin: 0 0 0 0;
+-	padding: 0 0 0 0;
+ }
+ 
+-content {
++section {
+ 	float: right;
+-	margin: 0 0 0 0;
+-	padding: 0 0 0 0;
+ }
+Index: Документация/MM2ryMe/MarryMe/html/css/ten_foto.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Документация/MM2ryMe/MarryMe/html/css/ten_foto.css	(revision 4d19b524763225089e6a4e7be3db60bdfb374244)
++++ Документация/MM2ryMe/MarryMe/html/css/ten_foto.css	(revision )
+@@ -5,7 +5,7 @@
+ 	text-align: center;
+ }
+ .lifted {
+-	position: relative;
++	position:relative;
+ 	width: 30%;
+ 	padding: 1em;
+ 	margin: 2em 1em 4em;
+@@ -20,7 +20,7 @@
+ .lifted:before, .lifted:after {
+ 	content: "";
+ 	position: absolute;
+-	z-index: -1;
++	z-index: -10;
+ 	bottom: 15px;
+ 	left: 10px;
+ 	width: 50%;

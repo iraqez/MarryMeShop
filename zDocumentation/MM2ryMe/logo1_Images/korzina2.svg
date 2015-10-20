@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="39px" height="55px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 39 55"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ enable-background="new 0 0 800 600">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil5 {fill:#3F3F3F}
+    .fil1 {fill:#60000C}
+    .fil13 {fill:#62000B}
+    .fil4 {fill:#B2B2B2}
+    .fil0 {fill:#EA8383}
+    .fil12 {fill:#FF887F}
+    .fil14 {fill:#FFA29F}
+    .fil3 {fill:#FFC3BF}
+    .fil6 {fill:url(#id0)}
+    .fil7 {fill:url(#id1)}
+    .fil42 {fill:url(#id2)}
+    .fil17 {fill:url(#id3)}
+    .fil18 {fill:url(#id4)}
+    .fil39 {fill:url(#id5)}
+    .fil23 {fill:url(#id6)}
+    .fil24 {fill:url(#id7)}
+    .fil37 {fill:url(#id8)}
+    .fil20 {fill:url(#id9)}
+    .fil40 {fill:url(#id10)}
+    .fil31 {fill:url(#id11)}
+    .fil28 {fill:url(#id12)}
+    .fil21 {fill:url(#id13)}
+    .fil19 {fill:url(#id14)}
+    .fil32 {fill:url(#id15)}
+    .fil34 {fill:url(#id16)}
+    .fil33 {fill:url(#id17)}
+    .fil29 {fill:url(#id18)}
+    .fil22 {fill:url(#id19)}
+    .fil26 {fill:url(#id20)}
+    .fil27 {fill:url(#id21)}
+    .fil25 {fill:url(#id22)}
+    .fil43 {fill:url(#id23)}
+    .fil30 {fill:url(#id24)}
+    .fil41 {fill:url(#id25)}
+    .fil8 {fill:url(#id26)}
+    .fil44 {fill:url(#id27)}
+    .fil15 {fill:url(#id28)}
+    .fil16 {fill:url(#id29)}
+    .fil11 {fill:url(#id30)}
+    .fil10 {fill:url(#id31)}
+    .fil38 {fill:url(#id32)}
+    .fil9 {fill:url(#id33)}
+    .fil35 {fill:url(#id34)}
+    .fil2 {fill:url(#id35)}
+    .fil36 {fill:url(#id36)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="19.9246" y1="28.7697" x2="19.985" y2="28.7697">
+   <stop offset="0" style="stop-color:#F0CFDE"/>
+   <stop offset="1" style="stop-color:#FFF5ED"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="20.6193" y1="28.7847" x2="20.6797" y2="28.7847">
+   <stop offset="0" style="stop-color:#F0CFDE"/>
+   <stop offset="1" style="stop-color:#FFF5ED"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="20.4232" y1="30.3385" x2="20.3925" y2="30.5838">
+   <stop offset="0" style="stop-color:#FF8174"/>
+   <stop offset="0.0117647" style="stop-color:#FF8174"/>
+   <stop offset="1" style="stop-color:#B20404"/>
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.0756" y1="29.555" x2="20.0756" y2="30.9142">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.5772" y1="29.9477" x2="19.5772" y2="30.3403">
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.5923" y1="30.3101" x2="19.5923" y2="30.431">
+  </linearGradient>
+  <linearGradient id="id6" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.6376" y1="29.8873" x2="19.6376" y2="29.9477">
+  </linearGradient>
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.8038" y1="29.6154" x2="19.8038" y2="29.8873">
+  </linearGradient>
+  <linearGradient id="id8" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.6527" y1="30.4612" x2="19.6527" y2="30.4612">
+  </linearGradient>
+  <linearGradient id="id9" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.7433" y1="30.1591" x2="19.7433" y2="30.2497">
+  </linearGradient>
+  <linearGradient id="id10" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.8189" y1="29.857" x2="19.8189" y2="30.0383">
+  </linearGradient>
+  <linearGradient id="id11" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.9548" y1="30.4008" x2="19.9548" y2="30.6122">
+  </linearGradient>
+  <linearGradient id="id12" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.0907" y1="29.8268" x2="20.0907" y2="30.4309">
+  </linearGradient>
+  <linearGradient id="id13" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.9397" y1="30.2799" x2="19.9397" y2="30.4914">
+  </linearGradient>
+  <linearGradient id="id14" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.9397" y1="30.1591" x2="19.9397" y2="30.3101">
+  </linearGradient>
+  <linearGradient id="id15" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.0454" y1="30.4007" x2="20.0454" y2="30.431">
+  </linearGradient>
+  <linearGradient id="id16" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.0152" y1="30.3403" x2="20.0152" y2="30.3403">
+  </linearGradient>
+  <linearGradient id="id17" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.0303" y1="30.3705" x2="20.0303" y2="30.4008">
+  </linearGradient>
+  <linearGradient id="id18" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.2115" y1="30.1289" x2="20.2115" y2="30.3403">
+  </linearGradient>
+  <linearGradient id="id19" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.3021" y1="30.431" x2="20.3021" y2="30.8236">
+  </linearGradient>
+  <linearGradient id="id20" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.3777" y1="29.706" x2="20.3777" y2="30.0081">
+  </linearGradient>
+  <linearGradient id="id21" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.4079" y1="29.9477" x2="20.4079" y2="30.1591">
+  </linearGradient>
+  <linearGradient id="id22" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.5136" y1="29.7362" x2="20.5136" y2="30.3101">
+  </linearGradient>
+  <linearGradient id="id23" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.4683" y1="30.5216" x2="20.4683" y2="30.6726">
+  </linearGradient>
+  <linearGradient id="id24" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.574" y1="30.0383" x2="20.574" y2="30.2799">
+  </linearGradient>
+  <linearGradient id="id25" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.5463" y1="30.3067" x2="20.4809" y2="30.7968">
+  </linearGradient>
+  <linearGradient id="id26" gradientUnits="userSpaceOnUse" x1="19.8798" y1="28.7576" x2="20.2412" y2="30.9263">
+   <stop offset="0" style="stop-color:#FF655F"/>
+   <stop offset="1" style="stop-color:#B20404"/>
+  </linearGradient>
+  <linearGradient id="id27" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.6497" y1="30.4602" x2="20.5889" y2="30.7339">
+  </linearGradient>
+  <linearGradient id="id28" gradientUnits="userSpaceOnUse" x1="20.1235" y1="28.8843" x2="20.0277" y2="29.682">
+   <stop offset="0" style="stop-color:#D92814"/>
+   <stop offset="1" style="stop-color:#880006"/>
+  </linearGradient>
+  <linearGradient id="id29" gradientUnits="userSpaceOnUse" x1="20.3888" y1="29.507" x2="19.6113" y2="28.9687">
+   <stop offset="0" style="stop-color:#F0CFDE"/>
+   <stop offset="1" style="stop-color:#FFF5ED"/>
+  </linearGradient>
+  <linearGradient id="id30" gradientUnits="userSpaceOnUse" x1="20.9481" y1="30.9167" x2="20.8644" y2="30.6097">
+   <stop offset="0" style="stop-color:#BF0014"/>
+   <stop offset="1" style="stop-color:#5F0006"/>
+  </linearGradient>
+  <linearGradient id="id31" gradientUnits="userSpaceOnUse" x1="20.8123" y1="29.8121" x2="21.0908" y2="29.7812">
+   <stop offset="0" style="stop-color:#BF0000"/>
+   <stop offset="0.988235" style="stop-color:#F09A95"/>
+   <stop offset="1" style="stop-color:#F09A95"/>
+  </linearGradient>
+  <linearGradient id="id32" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.6829" y1="30.4914" x2="19.6829" y2="30.4914">
+  </linearGradient>
+  <linearGradient id="id33" gradientUnits="userSpaceOnUse" x1="20.7046" y1="29.8729" x2="20.9266" y2="29.8412">
+   <stop offset="0" style="stop-color:#BF0014"/>
+   <stop offset="1" style="stop-color:#5F0006"/>
+  </linearGradient>
+  <linearGradient id="id34" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="20.0152" y1="30.3101" x2="20.0152" y2="30.3101">
+  </linearGradient>
+  <linearGradient id="id35" gradientUnits="userSpaceOnUse" x1="19.5647" y1="29.7021" x2="19.8012" y2="29.6495">
+   <stop offset="0" style="stop-color:#BF0000"/>
+   <stop offset="0.988235" style="stop-color:#F09A95"/>
+   <stop offset="1" style="stop-color:#F09A95"/>
+  </linearGradient>
+  <linearGradient id="id36" gradientUnits="userSpaceOnUse" xlink:href="#id2" x1="19.6225" y1="30.4612" x2="19.6225" y2="30.4612">
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_612158432">
+   <g id="Layer_2">
+    <polygon class="fil0" points="21,29 20,29 20,31 21,31 "/>
+    <polygon class="fil1" points="20,29 19,29 19,31 20,31 "/>
+    <polygon class="fil2" points="20,29 20,29 20,31 20,31 "/>
+    <rect class="fil3" transform="matrix(0.0443827 -0.61312 0.61312 0.0443827 19.7263 28.6705)" width="0" height="2"/>
+    <ellipse class="fil4" transform="matrix(0.607096 0.0965723 -0.0965723 0.607096 19.9452 28.7418)"/>
+    <ellipse class="fil5" transform="matrix(0.607096 0.0965108 -0.0965108 0.607096 19.9454 28.7425)"/>
+    <ellipse class="fil4" transform="matrix(0.607957 0.0909169 -0.0909169 0.607957 20.658 28.7891)"/>
+    <ellipse class="fil5" transform="matrix(0.607957 0.0911013 -0.0911013 0.607957 20.6586 28.7898)"/>
+    <path class="fil6" d="M20 29c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil7" d="M21 29c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+   </g>
+   <polygon class="fil8" points="21,29 19,29 19,31 21,31 "/>
+   <polygon class="fil9" points="21,29 21,29 21,31 21,31 "/>
+   <polygon class="fil10" points="21,29 21,29 21,31 21,31 "/>
+   <polygon class="fil11" points="21,31 21,31 21,31 "/>
+   <rect class="fil12" x="21" y="29" width="0" height="2"/>
+   <rect class="fil13" transform="matrix(0.614596 -0.0127247 0.0127247 0.614596 20.8299 28.7996)" width="0" height="3"/>
+   <rect class="fil14" transform="matrix(0.0494848 -0.612751 0.612751 0.0494848 19.4401 28.7748)" width="0" height="2"/>
+   <ellipse class="fil4" transform="matrix(0.607096 0.0963879 -0.0963879 0.607096 19.6858 28.8552)"/>
+   <ellipse class="fil5" transform="matrix(0.607096 0.0963879 -0.0963879 0.607096 19.6862 28.8558)"/>
+   <ellipse class="fil4" transform="matrix(0.607957 0.0908554 -0.0908554 0.607957 20.3988 28.9024)"/>
+   <ellipse class="fil5" transform="matrix(0.607957 0.0909783 -0.0909783 0.607957 20.3994 28.903)"/>
+   <g>
+    <path class="fil15" d="M20 29c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+   </g>
+   <g>
+    <path class="fil16" d="M20 29c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+   </g>
+   <g>
+    <path class="fil17" d="M21 31c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,-1 0,-1 -1,0 -1,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,1 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil18" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil19" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil20" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil21" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil22" d="M20 31c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil23" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil24" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil25" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil26" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil27" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil28" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,1 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil29" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil30" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil31" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil32" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil33" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0z"/>
+    <path class="fil34" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0z"/>
+    <path class="fil35" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0z"/>
+    <path class="fil36" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0z"/>
+    <path class="fil37" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0z"/>
+    <path class="fil38" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0z"/>
+    <path class="fil39" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil40" d="M20 30c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+   </g>
+   <g>
+    <path class="fil41" d="M21 31c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil42" d="M20 31c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil43" d="M20 31c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+    <path class="fil44" d="M21 31c0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0l0 0z"/>
+   </g>
+  </g>
+ </g>
+</svg>

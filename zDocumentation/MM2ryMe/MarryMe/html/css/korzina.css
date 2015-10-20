@@ -1,0 +1,56 @@
+/*korzina.css*/
+@charset "utf-8";
+/* CSS Document */
+
+#right_sector {
+    margin-top: 5px;
+    margin-right: 15px;
+    padding-left: 20px;
+    width: 175px;
+    float: right;
+    border-left: solid;
+    border-left-color: #CCC;
+    border-left-width: 1px;
+}
+
+#korzina {
+    /*	background-color:#ffff88;
+        height:90px;*/
+    margin-top: 30px;
+    padding-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+/*	float:right;*/
+}
+
+#korzina_text {
+    padding-top: 5px;
+    padding-bottom: 12px;
+    float: left;
+    width: 100px;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+    color: #0b2e52;
+}
+
+#korzina_text strong {
+    color: #f215ac;
+}
+
+#korzina_text a {
+    color: #00F;
+}
+
+#korzina_logo {
+    /*	margin-right:5px;*/
+    float: right;
+    width: 48px;
+    padding-top: 30px;
+}
+
+#knopka {
+    margin-top: 15px;
+}
+
+

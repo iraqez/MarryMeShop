@@ -4,11 +4,11 @@
 @import "menu.css";
 @import "korzina.css";
 @import "oformit_zakazcss.css";
+@import "ten_foto.css";
 
 @font-face {
     font-family: EkaterinaVelikaya2;
     src: url(../fonts/EkaterinaVelikaya2.ttf);
-
 }
 
 /* CSS Document */

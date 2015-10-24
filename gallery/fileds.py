@@ -49,7 +49,7 @@ class ThumbnailImageField(ImageField):
     """
     attr_class = ThumbnailImageFieldFile
 
-    def __init__(self, thumb_width=128, thumb_height=128, *args, **kwargs):
+    def __init__(self, thumb_width=60, thumb_height=60, *args, **kwargs):
         self.thumb_width = thumb_width
         self.thumb_height = thumb_height
         super(ThumbnailImageField, self).__init__(*args, **kwargs)
